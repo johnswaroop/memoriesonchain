@@ -16,7 +16,11 @@ function index() {
                 <div className={styles.mainCon}>
 
                     <div className={styles.filesDrop}>
-
+                        <img className={styles.uploadicon} src="/uploadicon.svg" alt="" />
+                        <h1>Drag and drop your files here</h1>
+                        <h1>or</h1>
+                        <h3>Browse files</h3>
+                        <p>Supports JPG, PNG and MP4 videos. Max file size : 10MB</p>
                     </div>
 
                     <div className={styles.inputs}>

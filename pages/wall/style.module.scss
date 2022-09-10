@@ -1,0 +1,138 @@
+.nav {
+    display: flex;
+    padding: 32px 64px;
+    width: 1280px;
+    margin: 0 auto;
+    justify-content: space-between;
+    z-index: 100;
+    h1 {
+        margin: 0;
+        font-family: "Montserrat Alternates";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        background: linear-gradient(92.37deg, #b57eea -34.81%, #8310c9 161.26%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+}
+
+.walletConnect {
+    display: flex;
+    width: fit-content;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    border-radius: 50px;
+    border: 2px solid #b57eea;
+    color: #b57eea;
+    font-weight: bold;
+    padding: 0 17px;
+    img {
+        margin-right: 6px;
+    }
+}
+
+.wallPage {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("/herobg.svg");
+    background-size: cover;
+}
+
+.memoryWall {
+    margin: 50px auto;
+    flex-direction: column;
+    display: flex;
+    width: 920px;
+    height: fit-content;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgba(181, 126, 234, 1);
+    padding: 40px 172px;
+    filter: drop-shadow(68.2825px 73.0582px 147px rgba(214, 126, 230, 0.07))
+        drop-shadow(44.2572px 47.3525px 86.0903px rgba(214, 126, 230, 0.0531481))
+        drop-shadow(26.3014px 28.1409px 46.8222px rgba(214, 126, 230, 0.0425185))
+        drop-shadow(13.6565px 14.6116px 23.8875px rgba(214, 126, 230, 0.035))
+        drop-shadow(5.56376px 5.95289px 11.9778px rgba(214, 126, 230, 0.0274815))
+        drop-shadow(1.26449px 1.35293px 5.78472px rgba(214, 126, 230, 0.0168519));
+}
+
+.headder {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+    justify-content: space-between;
+
+    p {
+        font-weight: 500;
+        font-size: 20px;
+        color: rgb(148, 142, 153);
+    }
+
+    .dropDown {
+        display: flex;
+        align-items: center;
+        font-weight: 500;
+        font-size: 14px;
+        img {
+            margin-left: 10px;
+        }
+    }
+}
+
+.memoryCompRow {
+    display: flex;
+    flex-direction: column;
+}
+
+.memoryComp {
+    display: flex;
+    flex-direction: column;
+
+    .time {
+        display: flex;
+        p {
+            margin: 0;
+            font-weight: 600;
+            font-size: 15px;
+            margin-left: 10px;
+            color: rgba(181, 126, 234, 1);
+        }
+        img {
+            width: 25px;
+            object-fit: contain;
+        }
+    }
+
+    .photo {
+        object-fit: contain;
+        height: 387px;
+    }
+
+    .desc {
+        padding-left: 15px;
+        border-left: 2.5px solid rgba(181, 126, 234, 1);
+        margin-left: 12px;
+
+        h1 {
+            font-weight: 500;
+            font-size: 32px;
+            color: #8516ba;
+            margin-bottom: 0;
+        }
+
+        p {
+            font-weight: 500;
+            font-size: 14px;
+            margin-top: 16px;
+            margin-bottom: 63px;
+        }
+    }
+}
