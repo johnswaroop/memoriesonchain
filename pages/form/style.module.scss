@@ -1,0 +1,255 @@
+.formPage {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("/herobg.svg");
+    flex-direction: column;
+    align-items: center;
+}
+
+.primaryBtn {
+    display: flex;
+    width: 180px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    background: #a15ee6;
+    border: 2px solid #a15ee6;
+    padding: 8px 24px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 60px;
+}
+
+.secondaryBtn {
+    display: flex;
+    min-width: 180px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    border: 2px solid #a15ee6;
+    padding: 8px 24px;
+    border-radius: 50px;
+    color: #9d4aeb;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 60px;
+}
+
+.nav {
+    display: flex;
+    padding: 32px 64px;
+    width: 1280px;
+    margin: 0 auto;
+    justify-content: space-between;
+    z-index: 100;
+
+    h1 {
+        margin: 0;
+        font-family: "Montserrat Alternates";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        background: linear-gradient(92.37deg, #b57eea -34.81%, #8310c9 161.26%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+}
+
+.walletConnect {
+    display: flex;
+    width: fit-content;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    border-radius: 50px;
+    border: 2px solid #b57eea;
+    color: #b57eea;
+    font-weight: bold;
+    padding: 0 17px;
+    img {
+        margin-right: 6px;
+    }
+}
+
+.formCon {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 1150px;
+    height: 775px;
+    background: #ffffff;
+    border: 2px solid #983fd7;
+    box-shadow: 0px 100px 125px rgba(214, 126, 230, 0.1), 0px 69.2711px 79.3732px rgba(214, 126, 230, 0.0787172),
+        0px 45.1895px 47.7405px rgba(214, 126, 230, 0.0644315), 0px 27.0554px 27.2595px rgba(214, 126, 230, 0.054344),
+        0px 14.1691px 15.0875px rgba(214, 126, 230, 0.045656), 0px 5.8309px 8.38192px rgba(214, 126, 230, 0.0355685),
+        0px 1.34111px 4.30029px rgba(214, 126, 230, 0.0212828);
+    border-radius: 16px;
+    margin-bottom: 50px;
+    overflow: hidden;
+
+    .titleBar {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        height: fit-content;
+        font-weight: 600;
+        font-size: 20px;
+        padding: 19px 48px;
+        background: #f7d7f7;
+        p {
+            margin: 0;
+        }
+    }
+}
+
+.mainCon {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    .inputs {
+        display: flex;
+        flex-direction: column;
+        p {
+            font-weight: 500;
+            font-size: 16px;
+            margin-bottom: 10px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 22px;
+        }
+        label {
+            margin-bottom: 20px;
+            input,
+            textarea {
+                border: 1px solid #b57eea;
+                border-radius: 8px;
+                height: 48px;
+                width: 426px;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 22px;
+                padding: 0 8px;
+            }
+
+            textarea {
+                height: auto;
+            }
+        }
+    }
+
+    .primaryBtn {
+        width: 426px;
+        height: 48px;
+        margin-top: 5px;
+    }
+}
+
+.filesDrop {
+    display: flex;
+    width: 50%;
+    height: 92%;
+    border-radius: 12px;
+    border: 1.8px dashed rgba(120, 121, 241, 1);
+    margin: 42px 48px;
+    margin-left: 0;
+}
+
+.walletCon {
+    display: flex;
+    width: 426px;
+    height: auto;
+    border-radius: 12px;
+    overflow: hidden;
+    flex-direction: column;
+    background: #f9f5ff;
+    border: 1px solid #b57eea;
+    .title {
+        display: flex;
+        //justify-content: center;
+        align-items: center;
+        padding: 0 14px;
+        width: 426px;
+        height: 36px;
+        background: #ebdeff;
+
+        p {
+            margin: 0;
+            font-weight: 500;
+            padding: 0;
+            font-size: 14px;
+        }
+    }
+
+    .address {
+        display: flex;
+        padding: 0 14px;
+        align-items: center;
+        justify-content: space-between;
+
+        p {
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 16px;
+            color: #18151e;
+            opacity: 0.5;
+        }
+        img {
+            width: 20px;
+            height: 20px;
+        }
+    }
+}
+
+.addMoreOwner {
+    display: flex;
+    width: 426px;
+    height: 40px;
+    background: #fdf9fb;
+    border: 1px solid #efe5ff;
+    border-radius: 8px;
+    margin-top: 16px;
+    align-items: center;
+    justify-content: center;
+    img {
+        width: 20px;
+        height: 20px;
+        margin-right: 12px;
+    }
+    p {
+        margin: 0 !important;
+    }
+}
+
+.uploadCsv {
+    display: flex;
+    width: 426px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p {
+        margin-bottom: 6px !important;
+        margin-top: 12px;
+        font-weight: 500;
+    }
+    h3 {
+        font-weight: 500;
+        font-size: 14px;
+        margin: 0;
+    }
+    span {
+        margin-top: 5px;
+        display: flex;
+        width: 176px;
+        height: 1px;
+        background: #a15ee6;
+    }
+}

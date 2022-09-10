@@ -1,0 +1,127 @@
+.main {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    background-image: url("/herobg.svg");
+    background-size: cover;
+}
+
+.floatingDots {
+    width: 300px;
+    height: 300px;
+}
+
+#tr {
+    position: absolute;
+    right: 0;
+    top: -5%;
+}
+
+#bl {
+    position: absolute;
+    left: 0;
+    bottom: -5%;
+}
+
+.nav {
+    display: flex;
+    padding: 32px 64px;
+    width: 1280px;
+    margin: 0 auto;
+    justify-content: space-between;
+    z-index: 100;
+    h1 {
+        margin: 0;
+        font-family: "Montserrat Alternates";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        background: linear-gradient(92.37deg, #b57eea -34.81%, #8310c9 161.26%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+}
+
+.walletConnect {
+    display: flex;
+    width: fit-content;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    border-radius: 50px;
+    border: 2px solid #b57eea;
+    color: #B57EEA;
+    font-weight: bold;
+    padding: 0 17px;
+    img{
+        margin-right: 6px;
+    }
+}
+
+.hero {
+    display: flex;
+    margin: auto auto;
+    z-index: 100;
+}
+
+.heroImg {
+    width: 464px;
+    height: 464px;
+    margin-left: 60x;
+}
+
+.heroText {
+    h1 {
+        width: 700px;
+        font-weight: 600;
+        font-size: 56px;
+        line-height: 76px;
+        margin: 0;
+    }
+    p {
+        font-weight: 500;
+        font-size: 24px;
+        color: rgba(0, 0, 0, 0.7);
+        opacity: 0.9;
+        margin: 0;
+        margin-top: 10px;
+    }
+    .buttonCon {
+        display: flex;
+        column-gap: 32px;
+    }
+    .primaryBtn {
+        display: flex;
+        width: 180px;
+        height: 48px;
+        align-items: center;
+        justify-content: center;
+        background: #a15ee6;
+        border: 2px solid #a15ee6;
+        padding: 8px 24px;
+        border-radius: 50px;
+        color: white;
+        font-weight: 600;
+        font-size: 16px;
+        margin-top: 60px;
+    }
+    .secondaryBtn {
+        display: flex;
+        min-width: 180px;
+        height: 48px;
+        align-items: center;
+        justify-content: center;
+        background: #ffffff;
+        border: 2px solid #a15ee6;
+        padding: 8px 24px;
+        border-radius: 50px;
+        color: #9d4aeb;
+        font-weight: 600;
+        font-size: 16px;
+        margin-top: 60px;
+    }
+}
